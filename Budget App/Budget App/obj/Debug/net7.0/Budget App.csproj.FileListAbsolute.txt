@@ -1,0 +1,42 @@
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.deps.json
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.runtimeconfig.json
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.pdb
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/EntityFramework.SqlServer.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/EntityFramework.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Data.SQLite.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.CodeDom.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Data.SqlClient.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Data.SQLite.EF6.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Drawing.Common.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Security.Permissions.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Windows.Extensions.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-arm64/native/sni.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-x64/native/sni.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-x86/native/sni.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-x64/native/SQLite.Interop.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/osx-x64/native/SQLite.Interop.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-x64/native/SQLite.Interop.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-x86/native/SQLite.Interop.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.csproj.AssemblyReference.cache
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.AssemblyInfoInputs.cache
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.AssemblyInfo.cs
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.csproj.CoreCompileInputs.cache
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.csproj.CopyComplete
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/refint/Budget App.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.pdb
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.genruntimeconfig.cache
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/ref/Budget App.dll

@@ -1,4 +1,25 @@
 ﻿<Properties StartupConfiguration="{1D98F038-FA2F-440C-908E-7E1140709E0A}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Budget_220App FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Budget App/Program.cs">
+    <Files>
+      <File FileName="Budget App/Program.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Budget App" expanded="True">
+            <Node name="Budget App">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Budget_220App PreferredExecutionTarget="MonoDevelop.Default" FirstBuild="True" />
 </Properties>

@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+BudgetDatabase.InitializeDatabase();
+
 Console.WriteLine("----------");
 Console.WriteLine("BUDGET APP");
 Console.WriteLine("----------");

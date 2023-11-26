@@ -39,9 +39,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "System.Data.SQLite": {
+            "System.Data.SQLite.Mac": {
               "target": "Package",
-              "version": "[1.0.118, )"
+              "version": "[1.0.104.2, )"
             }
           },
           "imports": [

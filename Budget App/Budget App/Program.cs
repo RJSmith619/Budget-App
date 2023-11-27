@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SQLite;
+using Budget_App;
 
 
 BudgetDatabase.InitializeDatabase();
@@ -16,3 +18,12 @@ Console.WriteLine("Press '3' to remove an expense");
 Console.WriteLine("Type 'exit' to quit");
 
 string menuAction = Console.ReadLine();
+
+while(menuAction.ToLower() != "exit")
+{
+    if(menuAction == "1")
+    {
+
+
+    }
+}

@@ -5,23 +5,28 @@ using Budget_App;
 
 public class ExpenseLogic
 {
-    static void AddExpense(SQLiteConnection connection)
+    private static string connectionString = @"Data Source=..\..\..\Files\BudgetApp.db;Version=3";
+
+
+    public void AddExpense()
     {
-        Expense expense = new Expense();
-
-        Console.Write("Enter Description: ");
-        expense.Description = Console.ReadLine();
-
-        Console.Write("Enter Expense Amount: ");
-        expense.ExpenseAmount = Convert.ToDecimal(Console.ReadLine());
-
-        Console.Write("Enter Due Date (YYYY-MM-DD): ");
-        expense.DueDate = DateTime.Parse(Console.ReadLine());
-
-        string insertQuery = "INSERT INTO Expenses (Description, Amount, DueDate) VALUES (@Description, @Amount, @DueDate)";
-        using (var insertCommand = new SQLiteCommand(insertQuery, connection))
+        using (var connection = new SQLiteConnection(connectionString))
         {
             connection.Open();
+
+            Expense expense = new Expense();
+
+            Console.Write("Enter Description: ");
+            expense.Description = Console.ReadLine();
+
+            Console.Write("Enter Expense Amount: ");
+            expense.ExpenseAmount = Convert.ToDecimal(Console.ReadLine());
+
+            Console.Write("Enter Due Date (YYYY-MM-DD): ");
+            expense.DueDate = DateTime.Parse(Console.ReadLine());
+
+            string insertQuery = "INSERT INTO Expenses (Description, Amount, DueDate) VALUES (@Description, @Amount, @DueDate)";
+            using (var insertCommand = new SQLiteCommand(insertQuery, connection))
             {
                 insertCommand.Parameters.AddWithValue("@Description", expense.Description);
                 insertCommand.Parameters.AddWithValue("@Amount", expense.ExpenseAmount);
@@ -34,8 +39,35 @@ public class ExpenseLogic
     }
 
 
-    static void ViewExpenses(SQLiteConnection connection)
+    public void ViewExpenses()
     {
+        using (var connection = new SQLiteConnection(connectionString))
+        {
+            connection.Open();
 
+            string selectQuery = "SELECT * FROM Expenses";
+            using (var selectCommand = new SQLiteCommand(selectQuery, connection))
+            {
+                using (var reader = selectCommand.ExecuteReader())
+                {
+                    Console.WriteLine("Id\tDescription\tAmount\tDue Date");
+                    while (reader.Read())
+                    {
+                        Console.WriteLine($"{reader["Id"]}\t{reader["Description"]}\t{reader["Amount"]}\t{reader["DueDate"]}");
+                    }
+                }
+            }
+        }
+    }
+
+
+    public void RemoveExpenses()
+    {
+        //using (var connection = new SQLiteConnection(connectionString))
+        //{
+        //    connection.Open();
+
+         
+        //}
     }
 }

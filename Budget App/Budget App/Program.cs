@@ -9,6 +9,8 @@ using Budget_App;
 
 BudgetDatabase.InitializeDatabase();
 
+ExpenseLogic logic = new ExpenseLogic();
+
 Console.WriteLine("----------");
 Console.WriteLine("BUDGET APP");
 Console.WriteLine("----------");
@@ -23,7 +25,11 @@ while(menuAction.ToLower() != "exit")
 {
     if(menuAction == "1")
     {
-
-
+        Expense expense = new Expense();
+        logic.AddExpense();
+    }
+    else if(menuAction == "2")
+    {
+        logic.ViewExpenses();
     }
 }

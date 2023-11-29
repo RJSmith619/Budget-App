@@ -4,13 +4,13 @@ using System.IO;
 
 public static class BudgetDatabase
 {
-	private static string connectionString = @"Data Source=..\..\..\Files\BudgetApp.db;Version=3";
+	private static string connectionString = @"Data Source=BudgetApp.db";
 
 	public static void InitializeDatabase()
 	{
-		if (!File.Exists(@"..\..\..\Files\BudgetApp.db"))
+		if (!File.Exists(@"BudgetApp.db"))
 		{
-			SQLiteConnection.CreateFile(@"..\..\..\Files\BudgetApp.db");
+			SQLiteConnection.CreateFile(@"BudgetApp.db");
 
 			using (var connection = new SQLiteConnection(connectionString))
 			{

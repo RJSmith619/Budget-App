@@ -5,7 +5,7 @@ using Budget_App;
 
 public class ExpenseLogic
 {
-    private static string connectionString = @"Data Source=..\..\..\Files\BudgetApp.db;Version=3";
+    private static string connectionString = @"Data Source=BudgetApp.db";
 
 
     public void AddExpense()
@@ -41,6 +41,22 @@ public class ExpenseLogic
 
     public void ViewExpenses()
     {
+        {
+            var expenses = GetExpenses();
+
+            Console.WriteLine("Id\tDescription\tAmount\tDue Date");
+            foreach (var expense in expenses)
+            {
+                Console.WriteLine($"{expense.Id}\t{expense.Description}\t{expense.ExpenseAmount}\t{expense.DueDate.ToShortDateString()}");
+            }
+        }
+    }
+
+
+    public List<Expense> GetExpenses()
+    {
+        List<Expense> expenses = new List<Expense>();
+
         using (var connection = new SQLiteConnection(connectionString))
         {
             connection.Open();
@@ -50,24 +66,41 @@ public class ExpenseLogic
             {
                 using (var reader = selectCommand.ExecuteReader())
                 {
-                    Console.WriteLine("Id\tDescription\tAmount\tDue Date");
                     while (reader.Read())
                     {
-                        Console.WriteLine($"{reader["Id"]}\t{reader["Description"]}\t{reader["Amount"]}\t{reader["DueDate"]}");
+                        expenses.Add(new Expense
+                        {
+                            Id = Convert.ToInt32(reader["Id"]),
+                            Description = Convert.ToString(reader["Description"]),
+                            ExpenseAmount = Convert.ToDecimal(reader["Amount"]),
+                            DueDate = Convert.ToDateTime(reader["DueDate"])
+                        });
                     }
                 }
             }
         }
+
+        return expenses;
     }
 
 
     public void RemoveExpenses()
     {
-        //using (var connection = new SQLiteConnection(connectionString))
-        //{
-        //    connection.Open();
+        using (var connection = new SQLiteConnection(connectionString))
+        {
+            connection.Open();
 
-         
-        //}
+            Console.WriteLine("Enter the Id of the expense you want to remove: ");
+            int expenseId = Convert.ToInt32(Console.ReadLine());
+
+            string deleteQuery = "DELETE FROM Expenses WHERE Id = @ExpenseId";
+            using (var deleteCommand = new SQLiteCommand(deleteQuery, connection))
+            {
+                deleteCommand.Parameters.AddWithValue("@ExpenseId", expenseId);
+
+                deleteCommand.ExecuteNonQuery();
+                Console.WriteLine("Expense removed successfully!");
+            }
+        }
     }
 }

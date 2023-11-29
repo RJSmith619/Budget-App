@@ -32,4 +32,14 @@ while(menuAction.ToLower() != "exit")
     {
         logic.ViewExpenses();
     }
+    else if(menuAction == "3")
+    {
+        logic.RemoveExpenses();
+    }
+
+    Console.WriteLine("Press '1' to add an expense");
+    Console.WriteLine("Press '2' to view expenses");
+    Console.WriteLine("Press '3' to remove an expense");
+    Console.WriteLine("Type 'exit' to quit");
+    menuAction = Console.ReadLine();
 }

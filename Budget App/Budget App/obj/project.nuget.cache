@@ -1,21 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "MmhNs2nVFquqQZZkG0Bd7m3N7cw+qapJrHOOsUqCnQKe6j67yZkN+lPCDMd8YL1WXWgj3uTaRQqnnrFlyP/Uqg==",
+  "dgSpecHash": "9o+zaiGoJ5M3kmfFs/mouhrpGBdTZ6u5mhpLP4dalvG3PzNYsPfWYoTLk6SAJNclbxhBEw8ljY5ZwDc8bLokWA==",
   "success": true,
   "projectFilePath": "/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/Budget App.csproj",
   "expectedPackageFiles": [
-    "/Users/jacobsmith/.nuget/packages/system.data.sqlite.mac/1.0.104.2/system.data.sqlite.mac.1.0.104.2.nupkg.sha512"
+    "/Users/jacobsmith/.nuget/packages/microsoft.data.sqlite/8.0.0/microsoft.data.sqlite.8.0.0.nupkg.sha512",
+    "/Users/jacobsmith/.nuget/packages/microsoft.data.sqlite.core/8.0.0/microsoft.data.sqlite.core.8.0.0.nupkg.sha512",
+    "/Users/jacobsmith/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/jacobsmith/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "/Users/jacobsmith/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/jacobsmith/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/jacobsmith/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Data.SQLite.Mac 1.0.104.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "libraryId": "System.Data.SQLite.Mac",
-      "targetGraphs": [
-        "net7.0"
-      ]
-    }
-  ]
+  "logs": []
 }

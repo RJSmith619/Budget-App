@@ -1,17 +1,40 @@
-/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App
-/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.deps.json
-/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.runtimeconfig.json
-/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.dll
-/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.pdb
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.csproj.AssemblyReference.cache
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.GeneratedMSBuildEditorConfig.editorconfig
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.AssemblyInfoInputs.cache
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.AssemblyInfo.cs
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.csproj.CoreCompileInputs.cache
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.deps.json
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.runtimeconfig.json
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Budget App.pdb
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/Microsoft.Data.Sqlite.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/SQLitePCLRaw.batteries_v2.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/SQLitePCLRaw.core.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/browser-wasm/nativeassets/net7.0/e_sqlite3.a
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.csproj.CopyComplete
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.dll
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/refint/Budget App.dll
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.pdb
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/Budget App.genruntimeconfig.cache
 /Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/obj/Debug/net7.0/ref/Budget App.dll
-/Users/jacobsmith/Documents/BudgetApp/Budget App/Budget App/bin/Debug/net7.0/System.Data.SQLite.Mac.dll

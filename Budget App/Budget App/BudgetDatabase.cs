@@ -1,6 +1,7 @@
 ﻿using System;
-using System.Data.SQLite;
+//using System.Data.SQLite;
 using System.IO;
+using Microsoft.Data.Sqlite;
 
 public static class BudgetDatabase
 {
@@ -10,10 +11,12 @@ public static class BudgetDatabase
 	{
 		if (!File.Exists(@"BudgetApp.db"))
 		{
-			SQLiteConnection.CreateFile(@"BudgetApp.db");
+            //SQLiteConnection.CreateFile(@"BudgetApp.db");
+            //SqliteConnection.CreateFile(@"BudgetApp.db");
 
-			using (var connection = new SQLiteConnection(connectionString))
-			{
+            //using (var connection = new SQLiteConnection(connectionString))
+            using (var connection = new SqliteConnection(connectionString))
+            {
 				connection.Open();
 
 				//Create tables for the data
@@ -25,7 +28,8 @@ public static class BudgetDatabase
 						DueDate DATE NOT NULL
 					);";
 
-				using (var command = new SQLiteCommand(connection))
+				//using (var command = new SQLiteCommand(connection))
+				using (var command = connection.CreateCommand())
 				{
 					command.CommandText = createExpensesTableQuery;
 					command.ExecuteNonQuery();

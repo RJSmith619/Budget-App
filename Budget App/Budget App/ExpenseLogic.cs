@@ -1,5 +1,6 @@
 ﻿using System;
-using System.Data.SQLite;
+//using System.Data.SQLite;
+using Microsoft.Data.Sqlite;
 using Budget_App;
 
 
@@ -10,7 +11,7 @@ public class ExpenseLogic
 
     public void AddExpense()
     {
-        using (var connection = new SQLiteConnection(connectionString))
+        using (var connection = new SqliteConnection(connectionString))
         {
             connection.Open();
 
@@ -26,7 +27,7 @@ public class ExpenseLogic
             expense.DueDate = DateTime.Parse(Console.ReadLine());
 
             string insertQuery = "INSERT INTO Expenses (Description, Amount, DueDate) VALUES (@Description, @Amount, @DueDate)";
-            using (var insertCommand = new SQLiteCommand(insertQuery, connection))
+            using (var insertCommand = new SqliteCommand(insertQuery, connection))
             {
                 insertCommand.Parameters.AddWithValue("@Description", expense.Description);
                 insertCommand.Parameters.AddWithValue("@Amount", expense.ExpenseAmount);
@@ -57,12 +58,12 @@ public class ExpenseLogic
     {
         List<Expense> expenses = new List<Expense>();
 
-        using (var connection = new SQLiteConnection(connectionString))
+        using (var connection = new SqliteConnection(connectionString))
         {
             connection.Open();
 
             string selectQuery = "SELECT * FROM Expenses";
-            using (var selectCommand = new SQLiteCommand(selectQuery, connection))
+            using (var selectCommand = new SqliteCommand(selectQuery, connection))
             {
                 using (var reader = selectCommand.ExecuteReader())
                 {
@@ -70,7 +71,7 @@ public class ExpenseLogic
                     {
                         expenses.Add(new Expense
                         {
-                            Id = Convert.ToInt32(reader["Id"]),
+                            Id = Convert.ToInt32(reader["ExpenseId"]),
                             Description = Convert.ToString(reader["Description"]),
                             ExpenseAmount = Convert.ToDecimal(reader["Amount"]),
                             DueDate = Convert.ToDateTime(reader["DueDate"])
@@ -86,15 +87,15 @@ public class ExpenseLogic
 
     public void RemoveExpenses()
     {
-        using (var connection = new SQLiteConnection(connectionString))
+        using (var connection = new SqliteConnection(connectionString))
         {
             connection.Open();
 
             Console.WriteLine("Enter the Id of the expense you want to remove: ");
             int expenseId = Convert.ToInt32(Console.ReadLine());
 
-            string deleteQuery = "DELETE FROM Expenses WHERE Id = @ExpenseId";
-            using (var deleteCommand = new SQLiteCommand(deleteQuery, connection))
+            string deleteQuery = "DELETE FROM Expenses WHERE ExpenseId = @ExpenseId";
+            using (var deleteCommand = new SqliteCommand(deleteQuery, connection))
             {
                 deleteCommand.Parameters.AddWithValue("@ExpenseId", expenseId);
 

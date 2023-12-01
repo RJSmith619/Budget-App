@@ -1,7 +1,7 @@
 # Budget-App
 
 ###NOTE!!####
-The code is completed but currently I am having database connection issues. This app is being developed using Visual Studio for Mac (New to me) so I'm looking into which dll files, packages, etc I need to get it working. In the meantime if possible please just review the actual written code.
+The database corrections I faced are corrected and all my code has been merged to the 'Main' branch. Please review this branch now instead.
 #############
 
 Budget App is a console application (hopefully to be a form application in a later time) that will allow users to track monthly expenses. It is being developed using the C# coding language and will utilize a SQLite database.  The user will be able to see a description of the expense, the expense amount, and the due date. The user will also have the ability to add, view, and delete expenses (Planning to add an 'update' feature in the future).
